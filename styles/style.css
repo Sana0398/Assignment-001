@@ -38,6 +38,10 @@
     cursor: pointer;
 
 }
+.primary-btn2:hover{
+    color: #006A50;
+    background-color: white;
+}
 .piller-title{
     font-size: 40px;
     font-weight: bold;
