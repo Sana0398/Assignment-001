@@ -2,6 +2,10 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
+  *{
+    font-family: fira-sans;
+   
+  }
 
   /*External Components*/
 .primary-btn{
@@ -208,4 +212,101 @@
     background-color: white;
     
 }
+.vision-icon{
+    margin: 48px 24px;
+    padding-bottom:24px;
+    max-height: 256px;
+    background-color: #F1F1F3;
+    border-radius: 16px;
+}
+.icon-img{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 48px 24px;
+   
+}
+.icon-img p{
+   
+    color: rgb(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+.icon-img h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(14, 14, 14, 0.8);
+}
+.opinion{
+    margin: 20px 160px;
+   
+}
+.questions{
+    background-color: rgba(255, 255, 255, 0.1);  
+    border-radius: 16px;
 
+}
+.question-table{
+    padding: 32px 32px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,td{
+    border: 1px solid rgb(14, 14, 14,.15);
+    padding: 24px 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+th{
+    background-color: #C6E4D6;
+    text-align: left;
+    padding: 24px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dropdown{
+    border: 1px solid black;
+    background-color: #C6E4D6;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+    padding: 12.5px 16px;
+}
+.down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border-radius: 5px;
+  }
+
+  .recent-news{
+    margin: 0px 160px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .news-title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 0.7);
+  }
+  .recent-cards{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    display: block;
+  }
+  .recent-card1{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .img-card{
+    padding: 48px 48px;
+    border-radius: 24px;
+  }
